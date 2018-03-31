@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="masterpage_Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+	Aesthetic by gettemplates.co
+	Twitter: http://twitter.com/gettemplateco
+	URL: http://gettemplates.co
+-->
+    
+
+	<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>911 Emergency Reporting</title>
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css" />
+    
+    <!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css" />
+	
+    <!-- Theme style  -->
+	<link rel="stylesheet" href="css/911StyleSheet.css" />
+
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css" /> 
+
+        <!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	
+	<script src="js/moment.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	
+    
+	</head>
+
+	<body>
+		
+	
+    <form id="mainform" runat="server">
+	<div id="page">
+   
+			
+	<!-- <div class="page-inner"> -->
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			
+
+			<div class="row">
+				<div class="col-sm-4 col-xs-12">
+					<div id="gtco-logo"><a href="HomePage.aspx">911 Emergency Unit</a></div>
+               </div>
+				<div class="col-xs-8 text-right menu-1">
+					<ul>
+						<li class="has-dropdown">
+							<a href="LogIncident.aspx">New Incident Log</a>
+							<!-- <ul class="dropdown">
+								<li><a href="#">Food Catering</a></li>
+								<li><a href="#">Wedding Celebration</a></li>
+								<li><a href="#">Birthday's Celebration</a></li>
+							</ul>
+                            -->
+						</li>
+						<li><a href="ViewIncidentListPage.aspx">View Incident List</a></li>
+                        
+                       <li><a href="SearchIncidentByDates.aspx">Search Incident Details</a></li>
+                            
+						<li class="btn-cta"><a href="HomePage.aspx"><span>Log Out</span></a></li>
+					</ul>	
+
+				</div>
+                           
+                
+			</div>
+           
+                 
+                 
+            </div>
+              
+	</nav>
+        
+	<div class="container">
+
+                <asp:ContentPlaceHolder id="head" runat="server">
+                            
+                 </asp:ContentPlaceHolder>
+				
+	</div>
+    
+    
+
+	</div>
+
+        <div id="footer">
+            <div>
+			    <p>
+				Copyright &copy; <a target="_blank" href="HomePage.aspx">911 EMERGENCY UNIT</a>
+			    </p>
+            </div>
+		</div>
+
+		</form>	
+		
+	
+
+	</body>
+</html>
