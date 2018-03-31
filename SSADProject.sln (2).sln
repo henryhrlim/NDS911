@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SSADProject", ".", "{970FE501-B724-41D8-A189-97CE92CC8746}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59446"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Documents\GitHub\kaskcnjsdef\SSADProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59446\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59446"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Documents\GitHub\kaskcnjsdef\SSADProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59446\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59446"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970FE501-B724-41D8-A189-97CE92CC8746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970FE501-B724-41D8-A189-97CE92CC8746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6454A108-2CD3-47D9-81D7-66B604D660B0}
+	EndGlobalSection
+EndGlobal
